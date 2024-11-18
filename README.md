@@ -2,9 +2,9 @@
 bernarpp is an application designed to simplify the management of events, finances, and group coordination for musical organizations. Whether you're a small ensemble, a community choir, or a large orchestra, bernarpp streamlines administrative tasks so you can focus on what matters most: the music.
 
 ## Features
-Event Management: Easily schedule concerts, rehearsals, and meetings.
-Financial Oversight: Keep track of budgets, expenses, and revenues in one centralized location.
-Group Coordination: Organize groups, assign roles, and manage communications effortlessly.
+- Event Management: Easily schedule concerts, rehearsals, and meetings.
+- Financial Oversight: Keep track of budgets, expenses, and revenues in one centralized location.
+- Group Coordination: Organize groups, assign roles, and manage communications effortlessly.
 
 ## Why "bernarpp"?
 The name bernarpp is inspired by the legendary maestro Leonard Bernstein. As a conductor, composer, and educator, Bernstein was renowned for his ability to bring people together through music. He exemplified excellence, collaboration, and innovation—the very principles that bernarpp aims to bring to musical organizations worldwide. By naming our app after him, we pay homage to his enduring legacy and aspire to reflect his commitment to the arts in our platform.
