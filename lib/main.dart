@@ -15,27 +15,33 @@
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' show BuildContext, ColorScheme, Colors, MaterialApp, Scaffold, StatelessWidget, ThemeData, Widget, runApp;
 
 void main() {
   runApp(const Bernarpp());
 }
 
+/// The main widget of the application.
+///
+/// [Bernarpp] is a stateless widget ([StatelessWidget]) that serves as the 
+/// entry point of the application. It sets up the overall theme and the 
+/// initial home page of the app.
 class Bernarpp extends StatelessWidget {
+  /// Constructor for the [Bernarpp] class.
+  ///
+  /// This constructor is marked as constant, enabling optimizations when
+  /// used in the widget tree.
   const Bernarpp({
-    super.key
+    super.key,
   });
 
-  // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const Scaffold(),
-    );
-  }
+  Widget build(final BuildContext context) => MaterialApp(
+    title: 'Flutter Demo',
+    theme: ThemeData(
+      colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      useMaterial3: true,
+    ),
+    home: const Scaffold(),
+  );
 }
